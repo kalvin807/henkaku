@@ -1,0 +1,24 @@
+{
+  "name": "henkaku",
+  "version": "1.0.0",
+  "description": "Provide functions to convert string between fullwidth and halfwidth character",
+  "author": "Kal.l",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "preversion": "npm run build",
+    "postversion": "git push --follow-tags"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2",
+    "vitest": "^0.23.2"
+  }
+}
