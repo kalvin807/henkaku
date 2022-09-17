@@ -120,8 +120,6 @@ dist
 
 yarn.lock
 
-
-/*.js
 *.d.ts
 
 .DS_Store
