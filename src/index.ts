@@ -235,7 +235,20 @@ const toWidth = (str: string, toWidth: Width): string => {
   return converted;
 };
 
+/**
+ * Convert a string to full-width.
+ *
+ * @param str - The string to convert.
+ * @returns The converted string.
+ */
 const toFullWidth = (str: string): string => toWidth(str, Width.Full);
+
+/**
+ * Convert a string to half-width.
+ *
+ * @param str - The string to convert.
+ * @returns The converted string.
+ */
 const toHalfWidth = (str: string): string => toWidth(str, Width.Half);
 
 export { toFullWidth, toHalfWidth };
