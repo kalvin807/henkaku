@@ -1,6 +1,6 @@
 {
   "name": "henkaku",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functions to convert UTF-8 characters between full-width 全角 and half-width 半角",
   "keywords": [
     "japanese",
